@@ -1,4 +1,4 @@
-# Lab-2c: Monthly Interest 
+# Lab-3b: Calculating BMI
 
 ## Objectives:
 
@@ -21,7 +21,7 @@ Here in the United States we still use the Imperial system of measurements and m
 
 Table showing the interpretation of the BMI number:
 
-Here the image will come
+TODO: Add the image
 
 ## Program: Computing Body Mass Index:
 
