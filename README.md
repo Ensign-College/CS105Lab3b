@@ -4,75 +4,44 @@
 
 In this lab, you will learn how to do the following:
 
-- Use a combination of mathematical operators
-- Specify the order in which operators should be executed using ()
+- Use if, else if, and else statements
+- Use the logical "and" operator &&
+- Translate categories described in a table to logical code
+- Convert imperial measurements to metric
 
-## Background and Formulas:
 
-Suppose you want to make a $200 deposit into a new credit union account each month. Assume that the credit union where you deposit your money has an interest rate of 1.7%. You want to calculate the balance after three months.
+## BMI:
 
- 
+Body Mass Index (BMI) is an indication of a person's health. It is calculated using a person’s height and weight using the following formula: **BMI =kg/m^2**
 
-We know that the annual interest rate is 1.7% or .017 or (1.7/100).
+Here in the United States we still use the Imperial system of measurements and must convert our weight measured in pounds into kilograms and our height measured in inches into meters. This is easily done using the following formulas:
 
-The monthly interest rate is then 1.7/100/12 or .001416…
+    kg = 0. 45359237 * pounds
+    m = 0.0254 * inches
 
-If you deposit $200 each month for three months, then:
+Table showing the interpretation of the BMI number:
 
- 
+Here the image will come
 
-Your balance after one month is:
-
-This month’s deposit * (1 + monthly interest rate) = balance after one month
-
-200 * (1 + .001416) = 200.28
-
-In other words:
-
-Current balance = deposit * (1 + monthly interest rate)
-
- 
-
-Your balance after two months is:
-
-(This month’s deposit + previous balance) * (1 + monthly interest rate) = balance after two months
-
-(200 + 200.28) * (1 + .001416) = 400.57
-
-In other words:
-
-New balance = (deposit + current balance) * ( 1 + monthly interest rate)
-
-or
-
-balance = (deposit + balance) * (1 + monthly interest rate)
-
- 
-
-Your balance after three months is:
-
-(This month’s deposit + previous balance) * (1 + monthly interest rate) = balance after three months
-
-(200+400.57) * (1 + .001416) = 600.85
-
-## Program: Monthly Interest:
+## Program: Computing Body Mass Index:
 
 Write a program which will ask the user to enter a monthly savings amount of their choice and an annual interest rate. Have the program calculate and output the account balance after 6 months.
 
 ## Key program requirements:
 
-- The use of loops is not allowed
-
+- Use if, else if, and else statements
+- Use the logical "and" operator &&
+- Nested if statements are NOT allowed in this lab
 
 ## Example Run:
 
-_This program will ask the user for a monthly deposit, an annual interest rate and then calculate the balance after 6 months._
+_In this program we will calculate a person's BMI._
 
-_Please enter the amount to be deposited each month:_
-_100_
-_Please enter the annual interest rate percent:_
-_5_
-
+_Please enter a person's height in inches:_
+_70_
+_Please enter a person's wheight in pounds:_
+_146_
+_The person's BMI is: 20.948603801493316. The person has a BMI classification of: Normal_
 
 ## Hints:
 **!!To get full credit you need your code to have the exact punctuations!!**
